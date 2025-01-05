@@ -26,5 +26,9 @@ or
 docker cp 3bc66deadfe9:/tmp/keycloak.json ./keycloack/
 ```
 
+fixing failed import data:
+https://medium.com/@ramanamuttana/script-upload-is-disabled-in-keycloak-4cb22d9358c8
+https://howtodoinjava.com/devops/keycloak-script-upload-is-disabled/
+
 
 
