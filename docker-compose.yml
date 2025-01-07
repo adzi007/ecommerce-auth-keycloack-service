@@ -14,10 +14,12 @@ services:
 
   keycloak:
     image: quay.io/keycloak/keycloak:latest
+    container_name: ecommerce-auth-service
     command: start
     environment:
+      # KC_HOSTNAME: ecommerce-auth-service
       KC_HOSTNAME: localhost
-      KC_HOSTNAME_PORT: 8081
+      # KC_HOSTNAME_PORT: 8081
       KC_HOSTNAME_STRICT_BACKCHANNEL: false
       KC_HTTP_ENABLED: true
       KC_HOSTNAME_STRICT_HTTPS: false
